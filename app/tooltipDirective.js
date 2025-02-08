@@ -17,7 +17,7 @@ export default {
       
       const rect = el.getBoundingClientRect();
       tooltip.style.left = `${rect.right + window.scrollX}px`; // 设置tooltip在元素的右侧
-      tooltip.style.top = `${rect.top + window.scrollY}px`; // 保持tooltip与元素在同一高度
+      tooltip.style.top = `${rect.top + window.scrollY-10}px`; // 保持tooltip与元素在同一高度
     });
 
     el.addEventListener('mouseleave', () => {

@@ -11,7 +11,7 @@ export default {
       tooltip.style.padding = '5px';
       tooltip.style.borderRadius = '5px';
       tooltip.style.fontSize = '12px';
-      tooltip.style.zIndex = '1000'; // 设置z-index为较大的值
+      tooltip.style.zIndex = '2000'; // 设置z-index为较大的值
       
       document.body.appendChild(tooltip);
       
